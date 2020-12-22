@@ -1,7 +1,7 @@
- ```java
-    public class Main{
-        public static void main(String args[]){
-        
-        }
-    }
- ```
+# JS的两种作用域：
+
+* 全局作用域
+  1. 直接在 script 标签中的代码，都在全局作用
+  2. 全局作用域在打开页面时创建，在关闭时销毁。
+  3. 全局作用域中有一个全局对象 window 。它由浏览器创建我们可以直接使用。
+  4. 在全局作用域中：创建的变量都会作为window属性保存，创建的函数都会作为window对象方法保存。
