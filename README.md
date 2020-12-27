@@ -46,3 +46,5 @@
 6.  instanceof 关键字可以检查创建的对象是否是一个类的实例，是：返回true；否，返回false；
 
    1. 任何对象的子类，(对象 instanceof Object) 其结果均是 true。
+
+![image](http://github.com/jiuice/JavaScript-/images/master/image-20201227162804964.png)
