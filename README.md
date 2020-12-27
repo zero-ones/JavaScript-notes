@@ -47,4 +47,4 @@
 
    1. 任何对象的子类，(对象 instanceof Object) 其结果均是 true。
 
-![image](http://github.com/jiuice/JavaScript-/images/main/image-20201227162804964.png)
+![image](https://github.com/jiuice/JavaScript-/edit/main/images/image-20201227162804964.png)
