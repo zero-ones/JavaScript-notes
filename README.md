@@ -69,7 +69,7 @@
 * 当函数作为构造函数被创建时，创建的对象中都会有一个隐含的属性，该属性指向构造函数的原型对象。通过<code>__ proto __</code>来访问该属性。
 * ![image-20201227162804964](https://github.com/zero-ones/JavaScript-notes/blob/main/images/image-20201218181802784.png)
 * 原型对象的作用：其相当于一个公共区域，所有的同一个类的实例都可以访问到这个原型变量。我们可以将对象中共有的内容，统一设置到原型对象中。
-* ![image-20201227165551371](C:\Users\穆秋实\AppData\Roaming\Typora\typora-user-images\image-20201227165551371.png)
+* ![image-20201227165551371](https://github.com/zero-ones/JavaScript-notes/blob/main/images/image-20201227162804964.png)
 * 当我们访问对象中的一个属性或方法时，他会先在自生对象中寻找，如果找到直接使用。如果未找到，则到原型对象中寻找，找到直接使用。未找到就是未定义。
 * 向构造方法的原型中添加一个属性时，当使用 in 检查实例化对象中是否含有某个属性时。若对象中没有，原型中有，则返回true。
 * 对于只判断当前对象中是否存在该属性，请使用 hasOwnProperty("属性名");只有当前对象自身中含有属性时，返回true。
