@@ -67,7 +67,7 @@
 * 我们创建的每一个函数，解析器都会向函数中添加一个属性 <b>prototype</b> ，这个属性对应着一个对象，这个对象被称为 原型对象。
 * 当函数作为普通函数被调用时， prototype 无任何作用。
 * 当函数作为构造函数被创建时，创建的对象中都会有一个隐含的属性，该属性指向构造函数的原型对象。通过<code>__ proto __</code>来访问该属性。
-* ![image-20201227162804964](C:\Users\穆秋实\AppData\Roaming\Typora\typora-user-images\image-20201227162804964.png)
+* ![image-20201227162804964](https://github.com/zero-ones/JavaScript-notes/blob/main/images/image-20201218181802784.png)
 * 原型对象的作用：其相当于一个公共区域，所有的同一个类的实例都可以访问到这个原型变量。我们可以将对象中共有的内容，统一设置到原型对象中。
 * ![image-20201227165551371](C:\Users\穆秋实\AppData\Roaming\Typora\typora-user-images\image-20201227165551371.png)
 * 当我们访问对象中的一个属性或方法时，他会先在自生对象中寻找，如果找到直接使用。如果未找到，则到原型对象中寻找，找到直接使用。未找到就是未定义。
